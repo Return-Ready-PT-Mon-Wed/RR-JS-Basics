@@ -1,43 +1,64 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  function addition(num1, num2){
+    let sum = num1 + num2;
+    return sum;}
 }
 
 function subtraction(num1, num2){
-  return -1;
+  function subtraction(num1, num2){
+    let sum = num1 - num2;
+    return sum;}
 }
 
 function multiplication(num1, num2){
-  return -1;
+  function multiplication(num1, num2){
+    let sum = num1 * num2;
+    return sum;}
 }
 
 function division(num1, num2){
-  return -1;
-}
+  function division(num1, num2){
+    let sum = num1 / num2;
+    return sum;}
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
+  function areaSquare(side){
+    let sum = Math.pow(side, 2);
+   return sum;}
 }
 
 function areaRectangle(length, width){
-  return -1;
+  function areaRectangle(length, width){
+    let sum = (length * width);
+    return sum;}
+undefined
 }
 
 function areaParallelogram(base, height){
-  return -1;
+  function areaParallelogram(base, height){
+    let sum = (base * height);
+    return sum;}
+
 }
 
 function areaTriangle(base, height){
-  return -1;
+  function areaTriangle(base, height){
+    let sum = (base * height);
+    return sum;}
 }
 
 function Circle(radius){
-  return -1;
+  function Circle(radius){
+    let sum = Math.pow(radius, 2)*Math.PI;
+    return sum;}
 }
 
 function Sphere(radius){
-  return -1;
+  function Sphere(radius){
+    let sum = Math.pow(radius, 4)*Math.PI;
+    return sum;}
 }
 
 // Surface Area formulas
